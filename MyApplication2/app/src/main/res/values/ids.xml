@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btLogin" type="id" />
+    <item name="etUserName" type="id" />
+    <item name="epSenha" type="id" />
+</resources>
