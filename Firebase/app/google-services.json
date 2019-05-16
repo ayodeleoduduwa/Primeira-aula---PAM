@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "289536917701",
+    "firebase_url": "https://aulasdeandroid-3862a.firebaseio.com",
+    "project_id": "aulasdeandroid-3862a",
+    "storage_bucket": "aulasdeandroid-3862a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289536917701:android:3d1a24944a12dd67",
+        "android_client_info": {
+          "package_name": "Firebase.eteczl.br"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289536917701-5l45vmha743a4qkn7rrprflkk2beomjv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "Firebase.eteczl.br",
+            "certificate_hash": "f1597f572188b0fb43dd37ef49e962d31afe86dd"
+          }
+        },
+        {
+          "client_id": "289536917701-q797o5nf22ltp7ndm00qqv1gme8i54st.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDac1c-WXlbRV98cetpgQpHkmGM_ok1VA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289536917701-q797o5nf22ltp7ndm00qqv1gme8i54st.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
