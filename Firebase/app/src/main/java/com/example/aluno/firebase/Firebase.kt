@@ -92,7 +92,7 @@ class Firebase : AppCompatActivity() {
         if (user != null) {
             this.lbEmailDoUsuarioLogado.text = user.email
         } else {
-            this.lbEmailDoUsuarioLogado.text = "Nenhum User Logado"
+            this.lbEmailDoUsuarioLogado.text = "Nenhum Usuario Logado"
         }
     }
 
@@ -147,7 +147,7 @@ class Firebase : AppCompatActivity() {
                         this.lbEmailValidoSera.text = "email valido: ${usuario.email}"
                     } else {
                         toast("Falha no envio de email de verificacao")
-                        this.lbEmailValidoSera.text = "email INvalido: ${usuario.email}"
+                        this.lbEmailValidoSera.text = "email invalido: ${usuario.email}"
                     }
                 }
     }
@@ -164,7 +164,7 @@ class Firebase : AppCompatActivity() {
             try {
                 toast("Senha alterada com sucesso")
             }catch (e: Exception){
-                toast("Erra durante o processo de alteracao de senha")
+                toast("Erro durante o processo de alteracao de senha")
             }
         }
     }
@@ -177,7 +177,7 @@ class Firebase : AppCompatActivity() {
         val pass: String = this.txtPass.text.toString()
 
         if (email.equals("") || pass.equals("")) {
-            toast("ou email ou senha estao em branco e nao pode...")
+            toast("ou email ou senha estao em branco ...")
             ret = false
         } else if (pass.length < 6) {
             toast("A senha precisa ter pelo menos 6 caracteres...")
