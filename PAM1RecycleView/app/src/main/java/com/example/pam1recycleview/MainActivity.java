@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.nossoRecycleView);
 
-        List<Aluno> listAlunos = new ArrayList<>();
+        List<Aluno> listAlunos = new ArrayList<Aluno>();
         Aluno huguinho = new Aluno();
         huguinho.setNome("huguinho");
         huguinho.setIdade(10);
@@ -36,6 +36,12 @@ public class MainActivity extends AppCompatActivity {
         listAlunos.add(luizinho);
 
         recyclerView.setAdapter(new NossoRecicleViewListDeAlunosAdapter(listAlunos, this));
+
+        RecyclerView.LayoutManager layoutManager =
+                new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
+
+        recyclerView.setLayoutManager(layoutManager);
+
 
     }
 }
